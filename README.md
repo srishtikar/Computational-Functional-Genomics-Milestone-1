@@ -29,12 +29,9 @@
 
 # File structure
   simplerVersion.py- is the primary script to run. Along with this, load your desired fasta 
-  file into the environment.
+  file into the desired folder and subfolder.
 
 # How to Run:
-  The first few lines of the actual code asks you to input the name of the file into the 
-  variable FASTA_FILE. (Note: The fasta file must be loaded into the environment for access
-  to the file. Moreover, the inputted name in FASTA_FILE must be properly spelled). Other
-  than this, you will be prompted to input an m once you run the program. Thereafter, the
-  output should be the log-odds probabilities of each region.
+  The code prompts you for the relative path of the fasta file you wish to use the markov
+  model on, as well as the order (m). It should output the log-odds scores of each section.
   
