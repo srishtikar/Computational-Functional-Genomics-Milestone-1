@@ -1,4 +1,4 @@
-For CFG First Milestone.py
+# # For CFG First Milestone.py
 
 # Requirements: 
   Python 3.11
@@ -21,7 +21,7 @@ For CFG First Milestone.py
   loaded into the environment so the program can access it.
 
 
-For simplerVersion.py
+# # For simplerVersion.py
 
 # Requirements
   Python 3.11
