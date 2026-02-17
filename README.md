@@ -2,6 +2,7 @@
 
 # Requirements: 
   Python 3.11
+  
   Libraries: numpy, pandas, matplotlib, pyfaidx
 
 # File structure:
@@ -25,13 +26,16 @@
 
 # Requirements
   Python 3.11
-  Libraries: numpy, pyfaidx
+  
+  Libraries: numpy, sys
 
 # File structure
-  simplerVersion.py- is the primary script to run. Along with this, load your desired fasta 
-  file into the desired folder and subfolder.
+  simplerVersion.py- is the primary script to run. Keep the desired fasta file in the 
+  appropriate folder with a reachable path.
 
 # How to Run:
-  The code prompts you for the relative path of the fasta file you wish to use the markov
-  model on, as well as the order (m). It should output the log-odds scores of each section.
+  In the terminal, input the following:-
+  python simplerVersion.py <path name eg Users/Jane Doe/Downloads/CFG Project/yourFASTAfile.fa> m
+  where m is the whole number order of the markov model
+  The code should output the log-odds scores of each section.
   
