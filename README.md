@@ -35,7 +35,7 @@
 
 # How to Run:
   In the terminal, input the following:-
-  python simplerVersion.py <path name eg Users/Jane Doe/Downloads/CFG Project/yourFASTAfile.fa> m
+  python simplerVersion.py <path name eg Users/Jane Doe/Downloads/CFG Project/yourFASTAfilename.fa> m
   where m is the whole number order of the markov model
   The code should output the log-odds scores of each section.
   
